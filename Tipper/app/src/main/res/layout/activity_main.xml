@@ -12,13 +12,6 @@
     android:columnCount="2"
     android:useDefaultMargins="true">
 
-<!--    <ImageView-->
-<!--        android:layout_width="320dp"-->
-<!--        android:layout_height="247dp"-->
-<!--        android:layout_row="4"-->
-<!--        android:layout_column="1"-->
-<!--        android:src="@drawable/rabbit" />-->
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,24 +60,89 @@
         android:padding="@dimen/textview_padding"
         android:elevation="@dimen/elevation"/>
 
-
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/bmiTextView"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/total"
-        android:id="@+id/totalLabelTextView"
-        android:layout_gravity="left"/>
+        android:textAppearance="?android:textAppearanceMedium" />
 
     <TextView
+        android:id="@+id/totalTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/totalTextView"
+        android:layout_row="2"
+        android:layout_column="0"
         android:layout_gravity="fill_horizontal"
         android:background="@color/result_background"
+        android:elevation="@dimen/elevation"
         android:gravity="center"
         android:padding="@dimen/textview_padding"
-        android:elevation="@dimen/elevation"/>
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/totalLabelTextView"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:text="@string/total"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/ageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age_label"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="2"/>
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:digits="0123456789"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="3" />
+
+
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:entries="@array/gender_array" />
+
+    <Spinner
+        android:id="@+id/activitySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:entries="@array/activity_array" />
+
+    <TextView
+        android:id="@+id/caloriesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:background="@color/result_background"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:padding="@dimen/textview_padding"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/recipeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_label" />
+
 
 </GridLayout>

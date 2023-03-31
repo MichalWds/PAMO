@@ -3,4 +3,21 @@
     <string name="enter_weight">Enter Weight</string>
     <string name="enter_height">Enter Height</string>
     <string name="total">BMI</string>
+    <string name="age_label">Age:</string>
+
+    <string-array name="gender_array">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="activity_array">
+        <item>Sedentary</item>
+        <item>Lightly active</item>
+        <item>Moderately active</item>
+        <item>Very active</item>
+        <item>Extra active</item>
+        <item>Very active</item>
+        <item>Extra active</item>
+    </string-array>
+    <string name="recipe_label">Przepis:</string>
 </resources>
