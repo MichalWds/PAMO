@@ -1,4 +1,4 @@
-# PAMO
+# PAMO Autor:Michał Wadas s20495
 
 zjad 2. BMR, rekomendacje, ekran startowy
 
