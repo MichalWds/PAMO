@@ -5,4 +5,12 @@
     <color name="colorAccent">#ff9100</color>
     <color name="amount_background">#BBDEFB</color>
     <color name="result_background">#FFE0B2</color>
+    <color name="colorEmaciation">#F5A9A9</color>
+    <color name="colorUnderweight">#F8E0E0</color>
+    <color name="colorLowWeight">#F5D0A9</color>
+    <color name="colorNormalWeight">#F2F5A9</color>
+    <color name="colorOverweight">#D0F5A9</color>
+    <color name="colorFirstDegreeObesity">#A9F5A9</color>
+    <color name="colorSecondDegreeObesity">#A9F5D0</color>
+    <color name="colorExtremeObesity">#A9BCF5</color>
 </resources>

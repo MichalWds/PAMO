@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Ile kcal ma 1g białka?",
+    "answers": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "9"
+    },
+    "correctAnswer": "4"
+  },
+  {
+    "question": "Ile powinno się pić wody dziennie? (w litrach)",
+    "answers": {
+      "a": "1,5-2",
+      "b": "2-3",
+      "c": "5-7",
+      "d": "10-11"
+    },
+    "correctAnswer": "1,5-2"
+  },
+  {
+    "question": "Ile powinno się spożywać białka na kg masy ciała?(w gramach)",
+    "answers": {
+      "a": "1-2,5",
+      "b": "3,5-4",
+      "c": "4,5-6 ",
+      "d": "1-1,5"
+    },
+    "correctAnswer": "1-2,5"
+  },
+  {
+    "question": "Ile kcal ma 1g tłuszczu?",
+    "answers": {
+      "a": "4",
+      "b": "5",
+      "c": "7",
+      "d": "9"
+    },
+    "correctAnswer": "9"
+  },
+  {
+    "question": "Jakich witamin jest najwięcej w tłuszczach?",
+    "answers": {
+      "a": "D3",
+      "b": "A7",
+      "c": "B49",
+      "d": "C17"
+    },
+    "correctAnswer": "D3"
+  },
+  {
+    "question": "Które z poniższych nie jest warzywem?",
+    "answers": {
+      "a": "Ziemniak",
+      "b": "Kalafior",
+      "c": "Pietruszka",
+      "d": "Jabłko"
+    },
+    "correctAnswer": "Jabłko"
+  }
+]
