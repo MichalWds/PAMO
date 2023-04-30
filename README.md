@@ -1,5 +1,16 @@
 # PAMO Autor:Michał Wadas s20495
 
+zjazd 4. konwersja kodu javowego na kotlin. Działająca aplikacja (w tle widać klasy kt)
+
+
+
+https://user-images.githubusercontent.com/47868085/235343499-19208559-316e-4895-9509-0e5f896d9f8d.mp4
+<video src='https://user-images.githubusercontent.com/47868085/235343499-19208559-316e-4895-9509-0e5f896d9f8d.mp4' width=180/>
+
+
+
+
+
 zjazd 3. quiz, charts. Pytania są wczytywane z pliku json. Kalkulator BMI umożliwia zapisywanie wyników oraz przedstawianie ich na wykresie.
 
 
